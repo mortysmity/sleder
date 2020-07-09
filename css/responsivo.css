@@ -1,0 +1,1906 @@
+@charset 'utf-8';
+/*Página Inicial HOME*/
+
+/*COMEÇO BOTAO HAMBURGUER*/
+.sidenav {
+    height: 200%;
+    width: 0;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color: #111;
+    overflow-x: hidden;
+    transition: 0.5s;
+    padding-top: 60px;
+}
+
+.sidenav a {
+    padding:10px;
+    text-decoration: none;
+    font-size: 22px;
+    color: #ccc;
+    display: block;
+    transition: 0.3s;
+    margin: 15px;
+}
+
+.sidenav a:hover {
+    color: #f1f1f1;
+}
+
+.sidenav .closebtn {
+    position: absolute;
+    top: 0;
+    right: 25px;
+    font-size: 36px;
+    margin-left: 50px;
+}
+
+#main {
+    transition: margin-left .5s;
+    padding: 16px;
+    color: #fff;
+}
+/*FIM BOTAO HAMBURGUER*/
+/*CABEÇALHO*/
+.redes-sociais{
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    top: 260px;    
+}
+.redes-sociais a {
+    margin: 10px;
+    padding: 8px;
+}
+.cabecalho {
+    background: #111;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.cabecalho p {
+    color: #fff;
+    font-family: 'quicksand',sans-serif;
+    font-size: 12px;
+    text-align: center;
+}
+/*FIM CABEÇALHO*/
+/*HEADER*/
+.header-intro-inicio{
+    height: 400px;
+    background-image: url('../img/giffoda.webp');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position:center;
+    /*background: #ea5b82;
+    background: #c3a9d4;*/
+}
+.nome-empresa-intro {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+}
+.nome-empresa-intro h2{
+    font-size: 42px;
+    color:#fff;
+    text-transform: uppercase;
+    font-family: 'quicksand',sans-serif;
+    margin-top: -50px;
+}
+.nome-empresa-intro h1{
+    font-size: 64px;
+    color: #fff;
+    text-transform: uppercase;
+    font-family: 'quicksand',sans-serif;
+    font-weight: bold;
+}
+.nome-empresa-intro a {
+    width: 120px;
+    height: 40px;
+    border: 1px solid #fff;
+    padding: 10px;
+    text-align: center;
+    color:#fff;
+    text-transform: uppercase;
+    font-size: 14px;
+}
+/*FIM HEADER*/
+/*NOSSO DOCES*/
+.nossos-doces-quad,.nossos-doces-quad2,.quebra-quad{
+    display: none;
+}
+.nossos-doces-inicio{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 32px;
+}
+.nossos-doces-inicio h2{
+    font-size: 24px;
+    text-transform: uppercase;
+    font-family: 'quicksand',sans-serif;
+    font-weight: bold;
+}
+.nossos-doces-inicio h3{
+    font-size: 18px;
+    font-family:'quicksand',sans-serif;
+}
+.nossos-doces-inicio h3:after{
+    content: "";
+    width: 30px;
+    height: 1px;
+    margin: 0 auto;
+    background: #000;
+    display: block;
+}
+.nossos-doces-inicio p {
+    font-size: 14px;
+    font-family: 'quicksand',sans-serif;
+    width: 340px;
+    text-align:center;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+.nossos-doces-inicio a {
+    width: 120px;
+    height: 40px;
+    border: 1px solid #000;
+    padding: 10px;
+    text-align: center;
+    color:#000;
+    text-transform: uppercase;
+    font-size: 14px;
+    margin-bottom: 32px;
+}
+.nossos-doces-inicio img{
+    width: 100%;
+}
+/*FIM NOSSOS DOCES*/
+
+/*LINHA ESPECIAL*/
+
+.linha-especial{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background: #08d1c9;
+    height: 300px;
+}
+.linha-especial h2{
+    font-size: 42px;
+    color: #fff;
+    text-transform: uppercase;
+    font-family: 'quicksand',sans-serif;
+     line-height: 30px;
+}
+.linha-especial h3{
+    font-size: 64px;
+    text-transform: uppercase;
+    font-family: 'quicksand',sans-serif;
+    font-weight: bold;
+    color: #fff;
+}
+.linha-especial a {
+    width: 120px;
+    height: 40px;
+    border: 1px solid #fff;
+    padding: 10px;
+    text-align: center;
+    color:#fff;
+    text-transform: uppercase;
+    font-size: 14px;
+}
+.linha-especial a:hover{
+    border: 1px solid #000;
+    color:#000;
+    transition: .8s;
+}
+/*FIM LINHA ESPECIAL*/
+
+/*SOBREMESA*/
+
+.sobremesa{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 32px;
+}
+.sobremesa h2{
+    font-size: 24px;
+    font-family: 'quicksand',sans-serif;
+    font-weight: bold;
+}
+.sobremesa h3 {
+    font-size: 18px;
+    font-family: 'quicksand',sans-serif;
+}
+.sobremesa h3:after {
+    content: "";
+    width: 30px;
+    height: 1px;
+    background: #000;
+    margin: 0 auto;
+    display: block;
+}
+.sobremesa p {
+    font-size: 14px;
+    font-family: 'quicksand',sans-serif;
+    width: 340px;
+    text-align:center;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.sobremesa a {
+    width: 120px;
+    height: 40px;
+    border: 1px solid #000;
+    padding: 10px;
+    text-align: center;
+    color:#000;
+    text-transform: uppercase;
+    font-size: 14px;
+    margin-bottom: 32px;
+}
+.dupla-image{
+    display: none
+}
+.sobremesa img {
+    width: 100%;
+}
+/*FIM SOBREMESA*/
+
+/*CHÁ DA TARDE*/
+
+.cha-da-tarde{
+    height: 300px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background: #fd20a2;
+}
+.cha-da-tarde h3{
+    font-size: 42px;
+    color: #fff;
+    text-transform: uppercase;
+    font-family: 'quicksand',sans-serif;
+    line-height: 30px;
+}
+.cha-da-tarde h2{
+    font-size: 48px;
+    text-transform: uppercase;
+    font-family: 'quicksand',sans-serif;
+    font-weight: bold;
+    color: #fff;
+}
+.cha-da-tarde a {
+    width: 120px;
+    height: 40px;
+    border: 1px solid #fff;
+    padding: 10px;
+    text-align: center;
+    color:#fff;
+    text-transform: uppercase;
+    font-size: 14px;
+}
+.cha-da-tarde a:hover{
+    border: 1px solid #000;
+    color:#000;
+    transition: .8s;
+}
+/*FIM CHÁ DA TARDE*/
+
+/*NOSSO LOCAL*/
+.dupla-image2{
+    display: none;
+}
+.nosso-local {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 32px;
+}
+.nosso-local h2{
+    font-size: 24px;
+    font-family: 'quicksand',sans-serif;
+    font-weight: bold;
+}
+.nosso-local h3 {
+    font-size: 18px;
+    font-family: 'quicksand',sans-serif;
+}
+.nosso-local h3:after{
+    content: "";
+    width: 30px;
+    height: 1px;
+    background: #000;
+    margin: 0 auto;
+    display: block;
+}
+.nosso-local p{
+    font-size: 14px;
+    font-family: 'quicksand',sans-serif;
+    width: 340px;
+    text-align:center;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+.nosso-local a {
+    width: 120px;
+    height: 40px;
+    border: 1px solid #000;
+    padding: 10px;
+    text-align: center;
+    color:#000;
+    text-transform: uppercase;
+    font-size: 14px;
+    margin-bottom: 32px;
+}
+.nosso-local img {
+    width: 100%;
+}
+/*FIM NOSSO LOCAL*/
+
+/*GALERIA*/
+
+.galeria-inicio{
+    background: #08d1c9;
+    height: 400px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.galeria-inicio h3{
+    font-size: 48px;
+    text-transform: uppercase;
+    font-family: 'quicksand',sans-serif;
+    color: #fff;
+    line-height: 30px;
+}
+.galeria-inicio h2{
+    font-size: 64px;
+    text-transform: uppercase;
+    font-family: 'quicksand',sans-serif;
+    color: #fff;
+    font-weight: bold;
+}
+.galeria-inicio a {
+    width: 120px;
+    height: 40px;
+    border: 1px solid #fff;
+    padding: 10px;
+    text-align: center;
+    color:#fff;
+    text-transform: uppercase;
+    font-size: 14px;
+}
+.galeria-inicio a:hover{
+    border:1px solid #000;
+    color:#000;
+    transition: .8s;
+}
+/*FIM GALERIA*/
+
+
+/*QUEBRA*/
+.paralax{
+    display: none;
+}
+.quebra-bg {
+    height: 70px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+}
+.quebra-bg p {
+    font-size: 18px;
+    font-family: 'quicksand',sans-serif;
+    text-transform: uppercase;
+}
+/*FIM QUEBRA*/
+/*FIM Página Inicial HOME*/
+/*---------------------------------------------------------------------*/
+
+
+/*Página CONHEÇA*/
+@charset 'utf-8';
+
+/*CABEÇALHO*/
+.cabecalho {
+    background: #111;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.cabecalho p {
+    color: #fff;
+    font-family: 'quicksand',sans-serif;
+    font-size: 12px;
+    text-align: center;
+}
+/*FIM CABEÇALHO*/
+/*HEADER*/
+.header-menu-desktop{
+    display: none;
+}
+.header-intro-conheca{
+    height: 400px;
+    background: #fd20a2;
+}
+.nome-empresa-intro-conheca {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+}
+.nome-empresa-intro-conheca h2{
+    font-size: 42px;
+    color:#fff;
+    text-transform: uppercase;
+    font-family: 'quicksand',sans-serif;
+    margin-top: -50px;
+}
+.nome-empresa-intro-conheca h1{
+    font-size: 64px;
+    color: #fff;
+    text-transform: uppercase;
+    font-family: 'quicksand',sans-serif;
+    font-weight: bold;
+}
+.nome-empresa-intro-conheca a {
+    width: 200px;
+    height: 40px;
+    border: 1px solid #fff;
+    padding: 10px;
+    text-align: center;
+    color:#fff;
+    text-transform: uppercase;
+    font-size: 12px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+/*FIM HEADER*/
+
+/*NOSSA HISTÓRIA*/
+
+.nossa-historia{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    margin-top: 32px;
+}
+.nossa-historia h2{
+    font-size: 24px;
+    font-family: 'quicksand',sans-serif;
+    font-weight: bold;
+}
+.nossa-historia h2:after {
+    content: "";
+    width: 60px;
+    height: 1px;
+    background: #000;
+    margin: 0 auto;
+    display: block;
+}
+.nossa-historia p{
+    text-align: center;
+    font-size: 14px;
+    margin-bottom: 32px;
+    width: 340px;
+    font-family: 'quicksand',sans-serif;
+    margin-top: 0;
+}
+.nossa-historia img {
+    width: 100%;
+}
+/*FIM NOSSA HISTÓRIA*/
+
+/*NOSSA MISSAO*/
+.missao{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    margin-top: 32px;
+}
+.missao h2 {
+    font-size: 24px;
+    font-family: 'quicksand',sans-serif;
+    font-weight: bold;
+}
+.missao h2:after {
+    content: "";
+    width: 30px;
+    height: 1px;
+    background: #000;
+    margin: 0 auto;
+    display: block;
+}
+.missao p {
+    text-align: center;
+    width: 340px;
+    font-size: 14px;
+    font-family: 'quicksand',sans-serif;
+    margin-top: 10px;
+    margin-bottom: 32px;
+}
+.missao img {
+    width: 100%;
+}
+/*FIM NOSSA MISSAO*/
+
+/*NOSSA VISAO*/
+.visao{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+.visao h2 {
+    font-size: 24px;
+    font-family: 'quicksand',sans-serif;
+    font-weight: bold;
+    margin-top: 32px;
+}
+.visao h2:after {
+    content: "";
+    width: 30px;
+    height: 1px;
+    background: #000;
+    margin: 0 auto;
+    display: block;
+}
+.visao p {
+    text-align: center;
+    width: 340px;
+    font-size: 14px;
+    font-family: 'quicksand',sans-serif;
+    margin-bottom: 32px;
+}
+.visao img {
+    width: 100%;
+}
+/*FIM NOSSA VISAO*/
+
+/*QUEBRA CONHEÇA*/
+
+.venha-conhecer{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 300px;
+    background: #08d1c9;
+}
+.venha-conhecer h2{
+    font-size: 30px;
+    color: #fff;
+    text-transform: uppercase;
+    font-family: 'quicksand',sans-serif;
+    font-weight: bold;
+}
+.venha-conhecer a{
+    width: 200px;
+    height: 40px;
+    border: 1px solid #fff;
+    padding: 10px;
+    text-align: center;
+    color:#fff;
+    text-transform: uppercase;
+    font-size: 12px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+/*FIM QUEBRA CONHEÇA*/
+
+/*FIM Página CONHEÇA*/
+/*---------------------------------------------------------------------*/
+
+/*página DOCES*/
+@charset 'utf-8';
+/*CABEÇALHO*/
+.cabecalho {
+    background: #111;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.cabecalho p {
+    color: #fff;
+    font-family: 'quicksand',sans-serif;
+    font-size: 12px;
+    text-align: center;
+}
+/*FIM CABEÇALHO*/
+/*HEADER*/
+.header-intro-doces{
+    height: 400px;
+    background-image: url('../img/giphy.gif');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position:center;
+}
+.nome-empresa-intro-doces {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+}
+.nome-empresa-intro-doces h2{
+    font-size: 42px;
+    color:#fff;
+    text-transform: uppercase;
+    font-family: 'quicksand',sans-serif;
+    margin-top: -50px;
+}
+.nome-empresa-intro-doces h1{
+    font-size: 64px;
+    color: #fff;
+    text-transform: uppercase;
+    font-family: 'quicksand',sans-serif;
+    font-weight: bold;
+    letter-spacing: .2em;
+}
+.nome-empresa-intro-doces a {
+    width: 200px;
+    height: 40px;
+    border: 1px solid #fff;
+    padding: 10px;
+    text-align: center;
+    color:#fff;
+    text-transform: uppercase;
+    font-size: 12px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+/*FIM HEADER*/
+
+/*NOSSOS DOCES*/
+
+.nossos-doces {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+.logo-w{
+    display: none;
+}
+.nossos-doces p {
+    text-align: center;
+    font-size: 16px;
+    font-family: 'quicksand',sans-serif;
+    font-weight: bold;
+    margin: 10px;
+}
+.nossos-doces img {
+    width: 100%;
+}
+.btn-solicite{
+    width: 200px;
+    height: 40px;
+    border: 1px solid #000;
+    padding: 10px;
+    text-align: center;
+    color:#000;
+    text-transform: uppercase;
+    font-size: 12px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    flex-wrap: wrap;
+    margin: 0 auto;
+}
+.nossos-doces div{
+    width: 100%;
+}
+/*FIM NOSSOS DOCES*/
+/*FIM página DOCES*/
+/*---------------------------------------------------------------------*/
+
+/*página GALERIA*/
+
+@charset 'utf-8';
+/*CABEÇALHO*/
+.cabecalho {
+    background: #111;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.cabecalho p {
+    color: #fff;
+    font-family: 'quicksand',sans-serif;
+    font-size: 12px;
+    text-align: center;
+}
+/*FIM CABEÇALHO*/
+
+/*HEADER*/
+.header-intro-galeria{
+    height: 400px;
+    background-image: url('../img/gifmelhor.webp');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position:center;
+}
+.nome-empresa-intro-galeria {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+}
+.nome-empresa-intro-galeria h2{
+    font-size: 42px;
+    color:#fff;
+    text-transform: uppercase;
+    font-family: 'quicksand',sans-serif;
+    margin-top: -50px;
+}
+.nome-empresa-intro-galeria h1{
+    font-size: 64px;
+    color: #fff;
+    text-transform: uppercase;
+    font-family: 'quicksand',sans-serif;
+    font-weight: bold;
+}
+.nome-empresa-intro-galeria a {
+    width: 200px;
+    height: 40px;
+    border: 1px solid #fff;
+    padding: 10px;
+    text-align: center;
+    color:#fff;
+    text-transform: uppercase;
+    font-size: 12px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+/*FIM HEADER*/
+
+/*NOSSA GALERIA*/
+.galeria {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+.galeria img {
+    width: 100%;
+}
+.btn-solicite {
+    width: 200px;
+    height: 40px;
+    border: 1px solid #000;
+    padding: 10px;
+    text-align: center;
+    color:#000;
+    text-transform: uppercase;
+    font-size: 12px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    flex-wrap: wrap;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+/*FIM NOSSOA GALERIA*/
+/*FIM página GALERIA*/
+/*---------------------------------------------------------------------*/
+
+/*página CONTATO*/
+@charset 'utf-8';
+/*CABEÇALHO*/
+.cabecalho {
+    background: #111;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.cabecalho p {
+    color: #fff;
+    font-family: 'quicksand',sans-serif;
+    font-size: 12px;
+    text-align: center;
+}
+/*FIM CABEÇALHO*/
+
+/*HEADER*/
+.header-intro-contato{
+    height: 400px;
+    background-image: url('../img/giffilmelega.gif');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position:center;
+}
+.nome-empresa-intro-contato {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+}
+.nome-empresa-intro-contato h2{
+    font-size: 42px;
+    color:#fff;
+    text-transform: uppercase;
+    font-family: 'quicksand',sans-serif;
+    margin-top: -50px;
+}
+.nome-empresa-intro-contato h1{
+    font-size: 64px;
+    color: #fff;
+    text-transform: uppercase;
+    font-family: 'quicksand',sans-serif;
+    font-weight: bold;
+}
+.nome-empresa-intro-contato a {
+    width: 200px;
+    height: 40px;
+    border: 1px solid #fff;
+    padding: 10px;
+    text-align: center;
+    color:#fff;
+    text-transform: uppercase;
+    font-size: 12px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+/*FIM HEADER*/
+
+/*CONTATO*/
+
+.contato-bg{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    margin-top: 32px;
+}
+.contato-bg h2{
+    font-size: 24px;
+    font-family: 'quicksand',sans-serif;
+    font-weight: bold;
+}
+.contato-bg h3 {
+    font-size: 16px;
+    font-family: 'quicksand',sans-serif;
+}
+.contato-bg h3:after {
+    content: "";
+    width: 60px;
+    height: 1px;
+    background: #000;
+    display: block;
+    margin: 0 auto
+}
+.form{
+    margin-top: 30px;
+}
+.form span {
+    font-size: 16px;
+    font-family: 'quicksand',sans-serif;
+    font-weight: bold;
+}
+.nome input{
+    display: flex;
+    width: 300px;
+    height: 35px;
+    border: 1px solid #000;
+}
+.email input{
+    display: flex;
+    width: 300px;
+    height: 35px;
+    border: 1px solid #000;
+}
+.telefone input{
+    display: flex;
+    width: 300px;
+    height: 35px;
+    border: 1px solid #000;
+}
+.msg textarea{
+    display: flex;
+    width: 300px;
+    height: 100px;
+    border: 1px solid #000;
+}
+.btn input{
+    width: 100px;
+    height: 35px;
+    margin-top: 15px;
+    margin-bottom: 64px;
+    border: 1px solid #000;
+}
+.btn input{
+    background: none;
+}
+.endereco-cont p{
+    margin-bottom: 10px;
+    margin-top: 10px;
+}
+.email-tel p{
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.endereco-cont {
+    margin-bottom: 15px;
+}
+.sep:after{
+    content: "";
+    width: 300px;
+    height: 1px;
+    background: #000;
+    display: block;
+    margin: 0 auto;
+}
+.horario-cont p {
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.horario-cont,.email-tel,.endereco-cont{
+    margin-top: 10px;
+}
+.endereco-cont:before{
+    content: "";
+    width: 300px;
+    height: 1px;
+    background: #000;
+    display: block;
+    margin-bottom: 10px;
+}
+.horario-cont{
+    margin-bottom: 32px;
+}
+/*FIM CONTATO*/
+
+
+/*RODAPE*/
+.rodape{
+    background: #111;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.rodape-bg {
+    margin-top: 32px;
+}
+/*---------------------------*/
+.endereco {
+    color: #fff;
+    margin: 10px;
+}
+.endereco h3{
+    font-size: 18px;
+    text-transform: uppercase;
+    font-weight: bold;
+    text-align: center;
+}
+.endereco h3:after{
+    content: "";
+    width: 30px;
+    height: 1px;
+    background: #fff;
+    margin: 0 auto;
+    display: block;
+}
+.endereco p {
+    font-size: 16px;
+    width: 300px;
+    line-height: 25px;
+    font-family: 'quicksand',sans-serif;
+    text-align: center;
+}
+/*---------------------------*/
+.contato {
+    color: #fff;
+    margin: 10px;
+}
+.contato h3{
+    font-size: 18px;
+    text-transform: uppercase;
+    font-weight: bold;
+    text-align: center;
+}
+
+.contato h3:after{
+    content: "";
+    width: 30px;
+    height: 1px;
+    background: #fff;
+    margin: 0 auto;
+    display: block;
+}
+.contato p {
+    font-size: 16px;
+    width: 300px;
+    line-height: 25px;
+    font-family: 'quicksand',sans-serif;
+    text-align: center;
+}
+/*---------------------------*/
+.horario {
+    color: #fff;
+    margin: 10px;
+}
+.horario h3{
+    font-size: 18px;
+    text-transform: uppercase;
+    font-weight: bold;
+    text-align: center;
+}
+.horario h3:after{
+    content: "";
+    width: 30px;
+    height: 1px;
+    background: #fff;
+    margin: 0 auto;
+    display: block;
+}
+.horario p {
+    font-size: 16px;
+    width: 300px;
+    line-height: 25px;
+    font-family: 'quicksand',sans-serif;
+    text-align: center;
+}
+/*---------------------------*/
+.novidades {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.novidades h3{
+    font-size: 18px;
+    text-transform: uppercase;
+    font-weight: bold;
+    text-align: center;
+    color: #fff;
+    margin-bottom: 10px;
+}
+.novidades input {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+    height: 40px;
+    width: 300px;
+}
+.btn-rodape {
+    width: 300px;
+    height: 40px;
+    border: 2px solid #fff;
+    padding: 10px;
+    color:#fff;
+    text-transform: uppercase;
+    font-size: 16px;
+    font-weight: bold;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10px;
+    margin-bottom: 30px;
+}
+/*---------------------------*/
+.rodape-final{
+    background: #333;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+.rodape-final p{
+    color: #fff;
+    text-align: center;
+    font-size: 12px;
+}
+/*FIM RODAPE*/
+/*FIM página CONTATO*/
+/*---------------------------------------------------------------------*/
+
+
+
+
+/* Desktop MEDIA QUERIES SITE RESPONSIVO*/
+@media screen and (min-width:768px){
+    /*Todo o header desktop aqui*/
+    /*Logo Whatsapp página doces*/
+    .redes-sociais{
+        position: absolute;
+        top:90px;
+        left:50px;
+    }    
+    
+    .logo-w{
+        display: flex;
+        margin: 0 auto;
+        flex-direction: column;
+        align-items: center;
+    }
+    
+    /*Fim Logo Whatsapp página doces*/
+    
+    .header-menu{
+        display: none;
+    }
+    .header-menu-desktop{
+        display: block;
+    }
+    .cabecalho p{
+        font-size: 14px;
+        font-family: 'quicksand',sans-serif;
+        letter-spacing: .1em;
+    }
+    nav ul{
+        display: flex;
+        justify-content: flex-end;
+        margin-right: 50px;
+    }
+    nav ul li {
+        margin: 10px;
+        padding: 10px;
+        margin-top: 64px;
+    }
+    nav ul li a{
+        color:#fff;
+        padding:8px;
+    }
+    nav ul li a:hover{
+        color: #fff;
+        border-bottom: 2px solid #fff;
+        transition: .2s;
+    }
+    .header-intro-inicio{
+        height: 600px;
+    }
+    .nome-empresa-intro h2{
+        font-size: 64px;
+        margin-top: 64px;
+    }
+    .nome-empresa-intro h1{
+        font-size: 120px;
+        letter-spacing: .1em;
+    }
+    .nome-empresa-intro a{
+        height: 45px;
+        width: 150px;
+        font-size: 16px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    /*fim Todo o header desktop aqui*/
+    
+    /*Todo o nosos doces desktop aqui*/
+    
+    .nossos-doces-quad{
+        display: flex;
+    }
+    .fora-do-quad{
+        display: none;
+    }
+    .quebra-quad{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        text-transform: uppercase;
+        background: #4d4d4d;
+        width: 250px;
+        height: 250px;
+        position: absolute;
+        top: 880px;
+        left: 220px;
+    }
+    .quebra-quad span{
+        color: #fff;
+    }
+    .quebra-quad span:after{
+        content: "";
+        width: 30px;
+        height: 2px;
+        background: #fff;
+        margin: 0 auto;
+        display: block;
+    }
+    .nossos-doces-inicio {
+        display: flex;
+        align-items: flex-start;
+        margin-left: 50px;
+        margin-top: 54px;
+    }
+    .nossos-doces-inicio h2{
+        font-size: 36px;
+        display: flex;
+        justify-content: flex-end;
+    }
+    .nossos-doces-inicio h3{
+        font-size: 24px;    
+    }
+    .nossos-doces-inicio h2{
+        position:absolute;
+        left: 900px;
+        top:900px;
+    }
+    .nossos-doces-inicio h3{
+        position:absolute;
+        left: 940px;
+        top: 940px;
+    }
+    .nossos-doces-inicio p{
+        position:absolute;
+        left: 800px;
+        top: 970px;
+        font-size: 16px;
+        width: 450px;
+    }
+    .nossos-doces-inicio a{
+        position:absolute;
+        left: 965px;
+        top: 1100px;
+        height: 45px;
+        width: 150px;
+        font-size: 16px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+    }
+    /*fim Todo o nosos doces desktop aqui*/
+    
+    /*Toda o linha especial desktop aqui*/
+    .linha-especial {
+        height: 400px;
+        margin-top: 64px;
+    }
+    .linha-especial h2{
+        font-size: 64px;
+        
+    }
+    .linha-especial h3{
+        font-size: 96px;
+    }
+    .linha-especial a{
+        height: 45px;
+        width: 150px;
+        font-size: 16px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    /*fim Toda linha especial desktop aqui*/
+    
+    /*Toda sobremesas desktop aqui*/
+    
+    .sobremesa{
+        display: flex;
+        align-items: flex-start;
+        margin-left: 100px;
+    }
+    .sobremesa h2{
+        margin-top: 300px;
+        margin-left: 120px;
+        font-size: 36px;
+    }
+    .sobremesa h3{
+        font-size: 24px;
+        margin-left: 130px;
+    }
+    .sobremesa p{
+        font-size: 16px;
+        width: 400px;
+    }
+    .sobremesa a {
+        margin-left: 150px;
+        height: 45px;
+        width: 150px;
+        font-size: 16px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+    }
+    
+    .dupla-image {
+        position: absolute;
+        display: block;
+        margin-left: 550px;
+        top: 1800px;
+    }
+    /*fim Toda sobremesas desktop aqui*/
+    
+    /*Toda cha da tarde desktop aqui*/
+        
+    .cha-da-tarde{
+        height: 400px;
+        margin-top: 170px
+    }
+    .cha-da-tarde h2 {
+        font-size: 96px;
+    }
+    .cha-da-tarde h3 {
+        font-size: 64px;
+    }
+    .cha-da-tarde a {
+        height: 45px;
+        width: 150px;
+        font-size: 16px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+    }
+    /*fim Toda cha da tarde desktop aqui*/
+    
+    /*Toda nosso local desktop aqui*/
+    .nosso-local {
+        display: flex;
+        flex-direction: row-reverse;
+        margin-top: 54px;
+        margin-bottom: 54px;
+        align-items: center;
+        flex-wrap: wrap;
+    }
+    .dupla-image2{
+        display:flex;
+        margin-right: 610px;
+    }
+    .nosso-local h2{
+        position: absolute;
+        left: 900px;
+        top: 3250px;
+        font-size: 36px;
+    }
+    .nosso-local h3{
+        position: absolute;
+        left: 960px;
+        top: 3300px;
+        font-size: 24px;
+    }
+    .nosso-local p{
+        position: absolute;
+        left: 810px;
+        top: 3315px;
+        width: 400px;
+        font-size: 16px;
+    }
+    .nosso-local a{
+        position: absolute;
+        left: 945px;
+        top:3445px;
+        height: 45px;
+        width: 150px;
+        font-size: 16px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    /*fim Toda  nosso local desktop aqui*/
+    
+    /*Galeria desktop aqui*/
+    .galeria-inicio{
+        height: 400px;
+    }
+    .galeria-inicio h2{
+        font-size: 96px;
+    }
+    .galeria-inicio h3{
+        font-size: 64px;
+    }
+    .galeria-inicio a{
+        height: 45px;
+        width: 150px;
+        font-size: 16px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    /*fim Galeria desktop aqui*/
+    
+    /*Quebra desktop aqui*/
+    .quebra-bg {
+        height: 150px;
+    }
+    .quebra-bg p{
+        font-size: 24px;
+        letter-spacing: .2em;
+    }
+    .rodape{
+        height: 350px;
+    }
+    .rodape-bg {
+        display: flex;
+        
+    }
+    .rodape-bg h3 {
+        font-size: 18px;
+    }
+    
+    .paralax{
+        display: flex;
+        flex-direction: row-reverse;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+    }
+    .paralax-ft{
+        display: flex;
+    }
+    .paralax img {
+        width: 100%;
+    }
+    
+    body{
+        overflow-x: hidden;
+    }
+    /*fim Quebra desktop aqui*/
+    
+    /*COMEÇO PÁGINA 2 CONHEÇA*/
+    .header-intro-conheca{
+        height: 400px;
+    background-image: url('../img/gifkanequi.gif');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position:center;       
+    }
+    .nome-empresa-intro-conheca h2{
+        font-size: 64px;
+        margin-top: 22px;
+    }
+    .nome-empresa-intro-conheca h1{
+        font-size: 144px;
+    }
+    .nome-empresa-intro-conheca a{
+        width: 250px;
+        height: 42px;
+        border: 1px solid #fff;
+        padding: 10px;
+        text-align: center;
+        color:#fff;
+        text-transform: uppercase;
+        font-size: 14px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        flex-wrap: wrap;
+    }
+    .nossa-historia{
+        display: flex;
+        flex-wrap: wrap;
+        align-items: flex-start;
+        margin-top: -184px;
+    }
+    .nossa-historia img {
+        width: auto;
+        margin-left: 80px;
+        margin-top: 100px;
+    }
+    .nossa-historia p {
+        position: relative;
+        left: 830px;
+        top:420px;
+        width: 400px;
+        font-size: 16px;
+    }
+    .nossa-historia h2 {
+        position: absolute;
+        left: 800px;
+        font-size: 36px;
+        width: 480px;
+    } 
+    .missao{
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+}
+    .missao img{
+        width: auto;
+        margin-right: -580px;
+    }
+    .missao h2 {
+        font-size: 36px;
+        position: absolute;
+        top:1350px;
+        left:250px;
+    }
+    .missao p {
+        position: absolute;
+        left: 110px;
+        font-size: 16px;
+        width: 400px;
+        top: 1400px;
+    }
+    .visao{
+        display: flex;
+        flex-direction: row-reverse;
+        align-items: center;
+    }
+    .visao img{
+        width: auto;
+        margin-right: 600px;
+    }
+    .visao h2 {
+        font-size: 36px;
+        position: absolute;
+        top:1800px;
+        left:900px;
+    }
+    .visao p {
+        position: absolute;
+        left: 760px;
+        font-size: 16px;
+        width: 400px;
+        top: 1900px;
+    }
+    .venha-conhecer h2{
+        font-size: 64px;
+    }
+    .venha-conhecer a {
+        width: 250px;
+        height: 42px;
+        border: 1px solid #fff;
+        padding: 10px;
+        text-align: center;
+        color:#fff;
+        text-transform: uppercase;
+        font-size: 14px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        flex-wrap: wrap;
+    }
+    /*FIM COMEÇO PÁGINA 2 CONHEÇA*/
+   
+    /*COMEÇO PÁGINA DOCES 3 */
+    
+    .header-intro-doces {
+        height: 550px;
+    }
+    .nome-empresa-intro-doces h1{
+        font-size: 144px;
+        letter-spacing: .1em;
+    }
+    .nome-empresa-intro-doces h2{
+        font-size: 64px;
+        margin-top: 22px;
+
+    }
+    .nome-empresa-intro-doces a {
+        width: 250px;
+        height: 42px;
+        border: 1px solid #fff;
+        padding: 10px;
+        text-align: center;
+        color:#fff;
+        text-transform: uppercase;
+        font-size: 14px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        flex-wrap: wrap;
+    }
+    .nossos-doces {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: center;
+        margin-top: 64px;
+        margin-bottom: 30px;
+    }
+    .doces {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: center;
+        flex-wrap: wrap;
+    }
+    .nossos-doces img{
+        width: auto;
+    }
+    .btn-solicite {
+        width: 250px;
+        height: 42px;
+        border: 1px solid #000;
+        padding: 10px;
+        text-align: center;
+        color:#000;
+        text-transform: uppercase;
+        font-size: 14px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        flex-wrap: wrap;
+        margin: 0 auto;
+        margin-bottom: 30px;
+    }
+    .nossos-doces div{
+        width: auto;
+    }
+    /*FIM PÁGINA DOCES 3*/
+    
+    /*FIM PÁGINA GALERIA 4*/
+    
+    .header-intro-galeria{
+        height: 550px;
+    }
+    .header-intro-galeria h1{
+        font-size: 144px;
+        letter-spacing: .1em;
+    }
+    .header-intro-galeria h2 {
+        font-size: 64px;
+        margin-top: 22px;
+    }
+    .nome-empresa-intro-galeria a {
+        width: 250px;
+        height: 42px;
+        border: 1px solid #fff;
+        padding: 10px;
+        text-align: center;
+        color:#fff;
+        text-transform: uppercase;
+        font-size: 14px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        flex-wrap: wrap;
+    }
+    .galeria img {
+        width: auto;
+    }
+    .galeria {
+        display: flex;
+        flex-direction: row;
+        margin-top: 64px;
+        margin-bottom: 30px;
+    }
+    /*FIM PÁGINA GALERIA 4*/
+    
+    /*PÁGINA CONTATO 5*/
+    .header-intro-contato{
+        height: 550px;
+    }
+    .header-intro-contato h1 {
+        font-size: 144px;
+        letter-spacing: .1em;
+    }
+    .header-intro-contato h2 {
+        font-size: 64px;
+        margin-top: 22px;
+    }
+    .nome-empresa-intro-contato a {
+        width: 250px;
+        height: 42px;
+        border: 1px solid #fff;
+        padding: 10px;
+        text-align: center;
+        color:#fff;
+        text-transform: uppercase;
+        font-size: 14px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        flex-wrap: wrap;
+    }
+    .central-bg {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+}
+.form{
+    display: flex;    
+    flex-wrap: wrap;
+}
+.btn input{
+    margin-bottom: 100px;
+    width: 120px;
+    height: 40px;
+    border: 2px solid #000;
+    background: none;
+    padding: 10px;
+}
+.nome input{
+    width: 370px;
+    height: 40px;
+    background: #EFF4F9;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10px;
+    margin-bottom: 20px;
+    border: none;
+}
+.nome span{
+    font-size: 18px;
+    font-family: 'quicksand',sans-serif;
+    font-weight: bold;
+}
+
+.email input{
+    width: 370px;
+    height: 40px;
+    background: #EFF4F9;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10px;
+    margin-bottom: 20px;
+    border: none;
+}
+.email span{
+    font-size: 18px;
+    font-family: 'quicksand',sans-serif;
+    font-weight: bold;
+}
+
+.telefone input{
+    width: 370px;
+    height: 40px;
+    background: #EFF4F9;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10px;
+    margin-bottom: 20px;
+    border: none;
+}
+.telefone span{
+    font-size: 18px;
+    font-family: 'quicksand',sans-serif;
+    font-weight: bold;
+}
+.msg textarea{
+    width: 370px;
+    height: 120px;
+    background: #EFF4F9;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10px;
+    margin-bottom: 20px;
+    border: none;
+}
+.msg span{
+    font-size: 18px;
+    font-family: 'quicksand',sans-serif;
+    font-weight: bold;
+}
+.infor-cont {
+    display: flex;
+    flex-direction: column;
+    margin-left: 150px;
+    margin-top: 70px;
+}
+.endereco-cont{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+}
+.endereco-cont span {
+    font-size: 18px;
+    color:#445566;
+    font-family: 'nunito',sans-serif;
+    font-weight: bold;
+}
+.endereco-cont p {
+    font-size: 14px;
+    font-family: 'nunito',sans-serif;
+    color: #445566;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.ver-maps {
+    margin-bottom: 20px;
+}
+.ver-maps a {
+    font-family: 'quicksand',sans-serif;
+    font-weight: 400;
+    color: #4d4d4d;
+}
+.sep {
+    width: 300px;
+    background: #445566;
+    height: 2px;
+    margin-bottom: 20px;
+}
+.email-tel span {
+    font-size: 18px;
+    color:#445566;
+    font-family: 'nunito',sans-serif;
+    font-weight: bold;
+    
+}
+.email-tel p {
+    font-size: 14px;
+    font-family: 'nunito',sans-serif;
+    color: #445566;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+
+.horario-cont span {
+    font-size: 18px;
+    color:#445566;
+    font-family: 'nunito',sans-serif;
+    font-weight: bold;
+}
+.horario-cont p {
+    font-size: 14px;
+    font-family: 'nunito',sans-serif;
+    color: #445566;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+/*FIM PÁGINA CONTATO 5*/
+        
+}
+/*FIM MEDIA QUERIES*/
